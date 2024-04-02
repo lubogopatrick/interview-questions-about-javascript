@@ -1,0 +1,9 @@
+
+const obj = {
+  a: 1,
+  b: function() {
+    console.log(this.a);
+  }
+};
+const func = obj.b;
+func();
